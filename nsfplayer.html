@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>ファミコンエミュ - みねクラ</title>
+</head>
+<body class="body">
+  <input id="rom" type="file">
+  <button id="pause">PAUSE</button>
+  <button id="reset">RESTART</button>
+  <button id="prevsong">PREVIOUS</button>
+  <button id="nextsong">NEXT</button><br>
+  <canvas id="output"></canvas>
+  <pre id="log"></pre>
+  <font size="10">動作ログ</font>
+  <script src="lib/zip.js"></script>
+  <script src="lib/inflate.js"></script>
+
+  <script src="nes/cpu.js"></script>
+  <script src="nes/apu.js"></script>
+  <script src="js/nsfmapper.js"></script>
+  <script src="js/nsf.js"></script>
+
+  <script src="js/textdraw.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/nsfmain.js"></script>
+
+</body>
+</html>

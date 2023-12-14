@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>ファミコンエミュ - みねクラ</title>
+</head>
+
+<!----Google Fonts --->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
+
+<body class="body">
+<a href="https://www.github.com/kaepi2022"><image class="LogoBgImage" src="https://raw.githubusercontent.com/kaepi2022/Famicom-Emu/main/%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3%E3%82%A8%E3%83%9F%E3%83%A5%20%E3%81%BF%E3%81%AD%E3%82%AF%E3%83%A9/Logo.pngLogo.png"></a>
+<p>
+  <input id="rom" type="file">
+  <button id="pause">PAUASE</button>
+  <button id="reset">RESET</button>
+  <button id="hardreset">POWER</button>
+  <button id="runframe">ベータ</button><br>
+  <canvas id="output" class="TheFuti"></canvas>
+</p>
+<p><image Hidht="1800" Width="600" src="https://raw.githubusercontent.com/kaepi2022/Famicom-Emu/main/%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3%E3%82%A8%E3%83%9F%E3%83%A5%20%E3%81%BF%E3%81%AD%E3%82%AF%E3%83%A9/Key-Map.png"></p>
+<hr>
+<p><font size="40">ゲームのダウンロード</font></p>
+<p><font size="5">画像をタップするとダウンロード先に飛べます。<br>ファミコンエミュの運営、みねクラ一切関係ありませんので、<br>ダウンロードの際は自己責任でお願いします。<br>何があっても自己責任でお願いします×2</font></p>
+<br>
+<br>
+<p><a href="https://archive.org/download/nes-roms" ><image src="https://raw.githubusercontent.com/kaepi2022/Famicom-Emu/main/%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3%E3%82%A8%E3%83%9F%E3%83%A5%20%E3%81%BF%E3%81%AD%E3%82%AF%E3%83%A9/NES-Shop.png"></a></p>
+  <br>
+  <br>
+<hr>
+  <br>
+  <br>
+  <br> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <center><font size="10">動作ログ</font></center>
+    <pre id="log"></pre>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  </body>
+  <body class="EnderLine">
+  <p"><image width="50" Hidth="50" src="https://github.com/kaepi2022/Famicom-Emu/blob/main/%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3%E3%82%A8%E3%83%9F%E3%83%A5%20%E3%81%BF%E3%81%AD%E3%82%AF%E3%83%A9/Cocoa.jpg"><font size="10">©2023 MineKura ©2023 GitHub Site</font></p>
+  <script src="lib/zip.js"></script>
+  <script src="lib/inflate.js"></script>
+
+  <script src="nes/mappers.js"></script>
+  <script src="mappers/nrom.js"></script>
+  <script src="mappers/mmc1.js"></script>
+  <script src="mappers/uxrom.js"></script>
+  <script src="mappers/cnrom.js"></script>
+  <script src="mappers/mmc3.js"></script>
+  <script src="mappers/axrom.js"></script>
+
+  <script src="nes/cpu.js"></script>
+  <script src="nes/pipu.js"></script>
+  <script src="nes/apu.js"></script>
+  <script src="nes/nes.js"></script>
+
+  <script src="js/audio.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
