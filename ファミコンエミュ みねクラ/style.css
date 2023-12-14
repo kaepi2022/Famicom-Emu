@@ -1,0 +1,40 @@
+
+body {
+  text-align: center;
+  background-color: #970000;
+  font-family: 'DotGothic16', sans-serif;
+  color: #ffffff; 
+}
+
+pre {
+  margin: 0;
+  padding: 0;
+}
+#log {
+  font-family: monospace;
+  max-height: 200px;
+  min-height: 200px;
+  overflow: scroll;
+  text-align: left;
+  width: 512px;
+  margin: auto;
+  border: 9px solid #fffb00;
+  padding: 5px;
+}
+
+#output {
+  width: 512px;
+  height: 480px;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+.TheFuti {
+  border: solid 3px #e5ff00;
+  border: solid 17px #ff0000;
+}
+.LogoBgImage {
+  background-image: url(/Users/005974/Desktop/FamicomHeader.png)
+}
+.EnderLine {
+  background-color: #970000;
+}
