@@ -99,7 +99,7 @@ el("pause").onclick = function(e) {
     cancelAnimationFrame(loopId);
     audioHandler.stop();
     paused = true;
-    el("pause").innerText = "Unpause";
+    el("pause").innerText = "PAUSE";
   }
 }
 
