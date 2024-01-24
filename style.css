@@ -37,3 +37,7 @@ pre {
 .EnderLine {
   background-color: #970000;
 }
+.BackGround {
+  background-color : #ddddd;
+  border-radius : 10px;
+}
